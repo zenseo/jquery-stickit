@@ -2,9 +2,9 @@
 <html>
 
   <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="jQuery-stickit : A jQuery plugin provides a sticky header, sidebar or else when scrolling." />
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="jQuery-stickit : A jQuery plugin provides a sticky header, sidebar or else when scrolling.">
 
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
 
@@ -32,38 +32,48 @@
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
         <h1>
-<a name="jquery-stickit" class="anchor" href="#jquery-stickit"><span class="octicon octicon-link"></span></a>jQuery-stickit</h1>
+<a id="jquery-stickit" class="anchor" href="#jquery-stickit" aria-hidden="true"><span class="octicon octicon-link"></span></a>jQuery-stickit</h1>
 
 <p>A jQuery plugin provides a sticky header, sidebar or else when scrolling.</p>
 
 <p>If you want it works in mobile device when scrolling, you could try <a href="https://github.com/emn178/jquery-mscroll">jQuery-mscroll</a>.</p>
 
 <h2>
-<a name="download" class="anchor" href="#download"><span class="octicon octicon-link"></span></a>Download</h2>
+<a id="download" class="anchor" href="#download" aria-hidden="true"><span class="octicon octicon-link"></span></a>Download</h2>
 
-<p><a href="https://raw.github.com/emn178/jquery-stickit/master/build/jquery.stickit.min.js">Compress</a><br><a href="https://raw.github.com/emn178/jquery-stickit/master/src/jquery.stickit.js">Uncompress</a></p>
-
-<h2>
-<a name="demo" class="anchor" href="#demo"><span class="octicon octicon-link"></span></a>Demo</h2>
-
-<p><a href="http://emn178.github.io/jquery-stickit/samples/sidebar/">Sidebar</a><br><a href="http://emn178.github.io/jquery-stickit/samples/header/">Header</a><br><a href="http://emn178.github.io/jquery-stickit/samples/navbar/">Navbar</a></p>
+<p><a href="https://raw.github.com/emn178/jquery-stickit/master/build/jquery.stickit.min.js">Compress</a><br>
+<a href="https://raw.github.com/emn178/jquery-stickit/master/src/jquery.stickit.js">Uncompress</a></p>
 
 <h2>
-<a name="browser-support" class="anchor" href="#browser-support"><span class="octicon octicon-link"></span></a>Browser Support</h2>
+<a id="installation" class="anchor" href="#installation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Installation</h2>
+
+<p>You can also install jquery-stickit by using Bower.</p>
+
+<pre><code>bower install jquery-stickit
+</code></pre>
+
+<h2>
+<a id="demo" class="anchor" href="#demo" aria-hidden="true"><span class="octicon octicon-link"></span></a>Demo</h2>
+
+<p><a href="http://emn178.github.io/jquery-stickit/samples/sidebar/">Sidebar</a><br>
+<a href="http://emn178.github.io/jquery-stickit/samples/header/">Header</a><br>
+<a href="http://emn178.github.io/jquery-stickit/samples/navbar/">Navbar</a></p>
+
+<h2>
+<a id="browser-support" class="anchor" href="#browser-support" aria-hidden="true"><span class="octicon octicon-link"></span></a>Browser Support</h2>
 
 <p>jQuery-stickit currently supports IE, Chrome, Firefox, Safari and Opera.</p>
 
 <h2>
-<a name="usage" class="anchor" href="#usage"><span class="octicon octicon-link"></span></a>Usage</h2>
+<a id="usage" class="anchor" href="#usage" aria-hidden="true"><span class="octicon octicon-link"></span></a>Usage</h2>
 
-<div class="highlight highlight-JavaScript"><pre><span class="nx">$</span><span class="p">(</span><span class="s1">'#you-want-stick'</span><span class="p">).</span><span class="nx">stickit</span><span class="p">(</span><span class="nx">options</span><span class="p">);</span>
-</pre></div>
+<div class="highlight highlight-JavaScript"><pre>$(<span class="pl-s1"><span class="pl-pds">'</span>#you-want-stick<span class="pl-pds">'</span></span>).stickit(options);</pre></div>
 
 <h3>
-<a name="options" class="anchor" href="#options"><span class="octicon octicon-link"></span></a>Options</h3>
+<a id="options" class="anchor" href="#options" aria-hidden="true"><span class="octicon octicon-link"></span></a>Options</h3>
 
 <h4>
-<a name="scope-stickscope-default-stickscopeparent" class="anchor" href="#scope-stickscope-default-stickscopeparent"><span class="octicon octicon-link"></span></a><em>scope: StickScope (default: <code>StickScope.Parent</code>)</em>
+<a id="scope-stickscope-default-stickscopeparent" class="anchor" href="#scope-stickscope-default-stickscopeparent" aria-hidden="true"><span class="octicon octicon-link"></span></a><em>scope: StickScope (default: <code>StickScope.Parent</code>)</em>
 </h4>
 
 <p>Sets the element stick in the parent element or entire document.</p>
@@ -73,50 +83,65 @@
 <p><em><code>StickScope.Document</code></em>: Sets the element stick in the entire document.</p>
 
 <h4>
-<a name="classname-string-default-stick" class="anchor" href="#classname-string-default-stick"><span class="octicon octicon-link"></span></a><em>className: string (default: <code>'stick'</code>)</em>
+<a id="classname-string-default-stick" class="anchor" href="#classname-string-default-stick" aria-hidden="true"><span class="octicon octicon-link"></span></a><em>className: string (default: <code>'stick'</code>)</em>
 </h4>
 
 <p>Sets the class name to the element when it's stick.</p>
 
 <h4>
-<a name="top-number-default-0" class="anchor" href="#top-number-default-0"><span class="octicon octicon-link"></span></a><em>top: number (default: <code>0</code>)</em>
+<a id="top-number-default-0" class="anchor" href="#top-number-default-0" aria-hidden="true"><span class="octicon octicon-link"></span></a><em>top: number (default: <code>0</code>)</em>
 </h4>
 
 <p>Sets sticky top, eg. it will be stuck at position top 50 if you set 50.</p>
 
 <h4>
-<a name="extraheight-number-default-0" class="anchor" href="#extraheight-number-default-0"><span class="octicon octicon-link"></span></a><em>extraHeight: number (default: <code>0</code>)</em>
+<a id="zindex-number-default-100-or-z-index-of-element-css" class="anchor" href="#zindex-number-default-100-or-z-index-of-element-css" aria-hidden="true"><span class="octicon octicon-link"></span></a><em>zIndex: number (default: <code>100</code> or z-index of element css)</em>
+</h4>
+
+<p>Sets z-index. Default is try to get element z-index property from css style. If undefined, default is 100.</p>
+
+<h4>
+<a id="extraheight-number-default-0" class="anchor" href="#extraheight-number-default-0" aria-hidden="true"><span class="octicon octicon-link"></span></a><em>extraHeight: number (default: <code>0</code>)</em>
 </h4>
 
 <p>Sets extra height for parent element, it could be used only StickScope.Parent. When the contents of parent has margin or something let the actual height out of container, you could use this options to fix.</p>
 
+<h3>
+<a id="methods" class="anchor" href="#methods" aria-hidden="true"><span class="octicon octicon-link"></span></a>Methods</h3>
+
+<h4>
+<a id="destroy" class="anchor" href="#destroy" aria-hidden="true"><span class="octicon octicon-link"></span></a>destroy()</h4>
+
+<p>Removes the stickit functionality completely. </p>
+
 <h2>
-<a name="example" class="anchor" href="#example"><span class="octicon octicon-link"></span></a>Example</h2>
+<a id="example" class="anchor" href="#example" aria-hidden="true"><span class="octicon octicon-link"></span></a>Example</h2>
 
 <p>Code</p>
 
-<div class="highlight highlight-JavaScript"><pre><span class="nx">$</span><span class="p">(</span><span class="s1">'.stickit'</span><span class="p">).</span><span class="nx">stickit</span><span class="p">({</span>
-  <span class="c1">// Sets the element stick in the parent element or entire document.</span>
-  <span class="nx">scope</span><span class="o">:</span> <span class="nx">StickScope</span><span class="p">.</span><span class="nx">Parent</span><span class="p">,</span>
+<div class="highlight highlight-JavaScript"><pre>$(<span class="pl-s1"><span class="pl-pds">'</span>.stickit<span class="pl-pds">'</span></span>).stickit({
+  <span class="pl-c">// Sets the element stick in the parent element or entire document.</span>
+  scope<span class="pl-k">:</span> StickScope.Parent,
 
-  <span class="c1">// Sets the class name to the element when it's stick.</span>
-  <span class="nx">className</span><span class="o">:</span> <span class="s1">'stick'</span><span class="p">,</span>
+  <span class="pl-c">// Sets the class name to the element when it's stick.</span>
+  className<span class="pl-k">:</span> <span class="pl-s1"><span class="pl-pds">'</span>stick<span class="pl-pds">'</span></span>,
 
-  <span class="c1">// Sets sticky top, eg. it will be stuck at position top 50 if you set 50.</span>
-  <span class="nx">top</span><span class="o">:</span> <span class="mi">0</span><span class="p">,</span>
+  <span class="pl-c">// Sets sticky top, eg. it will be stuck at position top 50 if you set 50.</span>
+  top<span class="pl-k">:</span> <span class="pl-c1">0</span>,
 
-  <span class="c1">// Sets extra height for parent element, it could be used only StickScope.Parent. When the contents of parent has margin or something let the actual height out of container, you could use this options to fix.</span>
-  <span class="nx">extraHeight</span><span class="o">:</span> <span class="mi">0</span>
-<span class="p">});</span>
-</pre></div>
+  <span class="pl-c">// Sets extra height for parent element, it could be used only StickScope.Parent. When the contents of parent has margin or something let the actual height out of container, you could use this options to fix.</span>
+  extraHeight<span class="pl-k">:</span> <span class="pl-c1">0</span>
+});
+
+$(<span class="pl-s1"><span class="pl-pds">'</span>.stickit<span class="pl-pds">'</span></span>).stickit(<span class="pl-s1"><span class="pl-pds">'</span>destroy<span class="pl-pds">'</span></span>);</pre></div>
 
 <h2>
-<a name="license" class="anchor" href="#license"><span class="octicon octicon-link"></span></a>License</h2>
+<a id="license" class="anchor" href="#license" aria-hidden="true"><span class="octicon octicon-link"></span></a>License</h2>
 
 <p>The project is released under the <a href="http://www.opensource.org/licenses/MIT">MIT license</a>.</p>
 
 <h2>
-<a name="contact" class="anchor" href="#contact"><span class="octicon octicon-link"></span></a>Contact</h2>
+<a id="contact" class="anchor" href="#contact" aria-hidden="true"><span class="octicon octicon-link"></span></a>Contact</h2>
 
 <p>The project's website is located at <a href="https://github.com/emn178/jquery-stickit">https://github.com/emn178/jquery-stickit</a><br>
 Author: <a href="mailto:emn178@gmail.com">emn178@gmail.com</a></p>
